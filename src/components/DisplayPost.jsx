@@ -8,7 +8,7 @@ const DisplayPost =()=>{
 
     useEffect(()=>{
        const fetchData = async()=>{
-        const res = await fetch("http://localhost:7000/api/blog",{
+        const res = await fetch("https://anmolramaniblogs.onrender.com/api/blog",{
             method:"GET",
             headers:{
                 token:localStorage.getItem("token")

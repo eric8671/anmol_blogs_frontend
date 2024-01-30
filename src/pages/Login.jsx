@@ -34,7 +34,7 @@ import {AuthContext} from '../App'
 
     const handleSubmit=async()=>{
         console.log(user);
-        const res = await fetch("http://localhost:7000/api/user/login",{
+        const res = await fetch("https://anmolramaniblogs.onrender.com/api/user/login",{
             method:"POST",
             headers:{
                 "Content-Type": "application/json"
